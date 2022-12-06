@@ -32,4 +32,4 @@ jobs:
           file: ./Dockerfile.go.buildtools
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: sordfish/build-tools:latest,sordfish/build-tools:v1.19.3,sordfish/build-tools:1.19.3
+          tags: sordfish/build-tools:latest,sordfish/build-tools:v1.19.3-ubuntu,sordfish/build-tools:1.19.3-ubuntu
