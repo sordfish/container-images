@@ -5,6 +5,9 @@ on:
     paths:
       - 'Dockerfile.go.buildtools'
 
+env:
+  GO_VERSION: 1.19.3
+
 jobs:
   docker-build-tools:
     runs-on: ubuntu-latest
