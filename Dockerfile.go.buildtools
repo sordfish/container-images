@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ARG GO_VERSION
-ENV GO_VERSION=${GO_VERSION}
+ENV GO_VERSION=1.19.3
 
 RUN apt-get update
 RUN apt-get install -y wget git gcc libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-good
