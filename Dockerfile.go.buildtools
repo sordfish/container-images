@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 ARG GO_VERSION
 ENV GO_VERSION=1.19.3
